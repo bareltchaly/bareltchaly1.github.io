@@ -979,6 +979,9 @@ input[type='submit']{
     
 }
 @media only screen and (max-width:460px){
+    .container{
+        padding: 0 1rem;
+    }
     .header .top-info{
         display: none;
     }   
@@ -1008,8 +1011,12 @@ input[type='submit']{
     .trade h1{
         font-size: 2rem;
     }
+    .trade h1 span{
+        text-transform: lowercase !important;
+    }
     .trade p{
         font-size: 1.5rem;
+        text-align: left;
     }
     .contact {
         display: grid;
